@@ -59,6 +59,7 @@ nav.menu{
   z-index: 500;
 }
 
+
 nav.menu ul{
   position: absolute;
   right: 50px;
@@ -67,12 +68,25 @@ nav.menu ul{
 
 nav.menu ul li{
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 1vw;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
   background-color: white;
-  padding: 10px 15px;
   border-radius: 50%;
-  color: black;
   font-weight: bold;
-  
+}
+
+nav.menu ul li:hover{
+  box-shadow: 2px 4px 4px black;
+}
+
+nav ul li a, a:visited{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  height: 40px;
+  width: 40px;
 }
 
